@@ -1,0 +1,37 @@
+.main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-container {
+  background: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+
+  width: 60%;
+  height: 80%;
+
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  font-size: 18px;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border-width: 0;
+  margin-top: 20px;
+}
+.heading {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: bold;
+}
